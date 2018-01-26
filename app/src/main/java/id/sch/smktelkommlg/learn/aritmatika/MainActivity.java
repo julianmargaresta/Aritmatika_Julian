@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     RadioButton radioDolar, radioEuro;
     Button btnokKonversi;
     TextView txHasil;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

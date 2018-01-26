@@ -21,6 +21,7 @@ public class persegi extends AppCompatActivity {
 
     private void initEvent() {
         OK.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 hitungLuas();

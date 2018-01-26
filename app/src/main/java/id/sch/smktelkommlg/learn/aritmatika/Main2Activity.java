@@ -5,12 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-
 
 public class Main2Activity extends AppCompatActivity {
     Button btnjumlah, btnkurang, btnkali, btnbagi;
-    TextView txtawal, txtoperator, txthasil;
     EditText editawal, editkedua, edithasil;
 
     @Override
@@ -22,9 +19,6 @@ public class Main2Activity extends AppCompatActivity {
         btnkurang = findViewById(R.id.btnkurang);
         btnkali = findViewById(R.id.btnkali);
         btnbagi = findViewById(R.id.btnbagi);
-        txtawal = findViewById(R.id.txtawal);
-        txtoperator = findViewById(R.id.txtoperator);
-        txthasil = findViewById(R.id.txthasil);
         editawal = findViewById(R.id.editawal);
         editkedua = findViewById(R.id.editkedua);
         edithasil = findViewById(R.id.edithasil);
